@@ -1,5 +1,4 @@
 import math
-import getpass
 
 if __name__ == "__main__":
     # # exercise of course 1
@@ -51,7 +50,7 @@ if __name__ == "__main__":
     # exercise of course 5: usrname and password
     # while True:
     #     username = input("Please input your username: ")
-    #     password = getpass.getpass("Please input your password: ")
+    #     password = input("Please input your password: ")
     #
     #     if username != "Shelly" or password != "123456":
     #         print("Invaild username or password, Please try again!")
@@ -59,5 +58,4 @@ if __name__ == "__main__":
     #         print("Hello, Shelly")
     #         break
 
-    password = getpass.g
     print(password)
